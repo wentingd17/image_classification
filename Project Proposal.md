@@ -5,11 +5,11 @@ In this project I'm trying to leverage Convolutional Neural Networks to build a 
 
 #### Data Description:
 The dataset I'll work with is an [image dataset](https://github.com/garythung/trashnet/blob/master/data/dataset-resized.zip), which contain 2527 images:
-* 501 glass\
-* 594 paper\
-* 403 cardboard\
-* 482 plastic\
-* 410 metal\
+* 501 glass
+* 594 paper
+* 403 cardboard
+* 482 plastic
+* 410 metal
 * 137 trash
 
 #### Tools:
