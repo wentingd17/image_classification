@@ -5,7 +5,7 @@ This project is trying to classify trash images into five trash categories:
 * metal
 * trash
 
-<img src="plots/sample_img.png" width=500>
+<img src="sample_img.png" width=500>
 
 I used transfer learning, and I tried both MobileNet and VGG16.
 
@@ -17,4 +17,4 @@ Now the model which generates the best result is the MobileNet model, with froze
 
 Accuracy: 0.85
 
-<img src="plots/cm.png" width=500>
+<img src="cm.png" width=500>
