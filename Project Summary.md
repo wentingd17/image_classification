@@ -1,17 +1,17 @@
 # Deep Learning: Trash Classification With Neural Networks
 Wenting Deng
 
-##Abstract
+## Abstract
 As more cities in China start to promote some mandatory but complex trash sorting rules, which create challenges among their residents to transition from disposing trash freely to one of the strictest waste-sorting regulations in the world in this short time period. A system which could recognize the trash classes would be helpful for people to sort their household trash more efficiently. Therefore, the goal of this project is to train a Convolutional Neural Networks for trash photo classification. The data I worked with came from [Kaggle](https://www.kaggle.com/asdasdasasdas/garbage-classification). It contains 2,600 sample images with 6 classifications: cardboard, glass, metal, paper, plastic and trash. The final model was trained by leverage transfer learnings based on VGG16.
 
-##Design
+## Design
 This Convolutional Neural Networks can be further used to create an AI Camera app, which could be used to recognize the trash types automatically. This types of app can be launched as a subscription based app for enterprise users, and for individual users we can launch it for free.
 
-##Data
+## Data
 The data I worked with came from [Kaggle](https://www.kaggle.com/asdasdasasdas/garbage-classification). It contains 2,600 sample images with 6 classifications: cardboard (393), glass (491), metal (400), paper(584), plastic (472) and trash(127). This dataset is imbalanced as trash images only account for 5% in total.
 
 
-##Algorithms
+## Algorithms
 **CNN**
 I trained a CNN model from scratch as my base model, but because it performed poorly with only 30% - 40% accuracy, I switched to leverage transfer learnings.
 
@@ -35,5 +35,5 @@ top3 validation accuracy: 98%
 * keras to build the CNN and fully connected layers
 * Google Colaboratory for model training
 
-##Communication##
+## Communication##
 Slides. I will further update this project and add it to blog after the bootcamp.
