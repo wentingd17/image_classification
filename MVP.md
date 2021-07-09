@@ -15,4 +15,4 @@ Then I tried to augment more image data in my training dataset, also rescaled th
 
 Now the model which generates the best result is a MobileNet model, with accuracy: 0.85
 
-<img src="cm.png" width=500>
+<img src="plots/cm.png" width=500>
